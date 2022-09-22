@@ -1,0 +1,49 @@
+.body-index {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.app {
+  text-align: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  border-radius: 50px;
+  padding: 10px;
+}
+/* Header-c1 */
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
+.header-c1{
+  border: 2px solid #555555;
+  border-radius: 50px;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.photome{
+  border: 4px solid #555555;
+  padding: 5px;
+  border-radius: 50%;
+}
+.infome{
+  margin-left: 50px;
+  padding: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+/* Header-c2 */
+.work{
+  widows: 300px;
+  font-size: 20px;
+  text-align: left;
+}
