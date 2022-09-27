@@ -1,41 +1,28 @@
-.body-index {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.infome{
+  display:flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-}
-
-.app {
-  text-align: center;
-  background-color: #fff;
-  border: 2px solid #000;
-  border-radius: 50px;
   padding: 10px;
-}
-/* Header-c1 */
-thead,
-tfoot {
-  background-color: #333;
-  color: #fff;
-}
-.header-c1{
-  border: 2px solid #555555;
-  border-radius: 50px;
-  text-align: center;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
 }
 .photome{
   border: 4px solid #555555;
   padding: 5px;
   border-radius: 50%;
+  font-size: 2rem;
+  transition-duration: 0.3s;
 }
-.infome{
+/* phtome hover rotate 10 deg and scale 1.1 */
+.photome:hover{
+  transform: rotate(-10deg) scale(1.03);
+}
+
+.photome:active{
+  transform: rotate(10deg) scale(.97);
+  transition-duration: 0.3s;  
+}
+
+.description-me{
   margin-left: 50px;
   padding: 10px;
   padding-right: 25px;
