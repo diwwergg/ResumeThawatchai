@@ -4,44 +4,63 @@
 <head>
   <meta charset="utf-8">
   <title>Contact</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/container.css">
   <link rel="stylesheet" href="css/contact.css">
   <link rel="stylesheet" href="css/button.css">
   <script src="https://kit.fontawesome.com/237bd344eb.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="body-index">
-  <div class="app">
-    <div class="bigbutton">
-      <a href="index.html">
-        <h3>Home</h3>
-      </a>
-    </div>
-    <div class="detail">
-      <h3>ช่องทางการติดต่อ</h3>
-      <div class="social-link">
-        <a class="hover-scale" href="https://www.facebook.com/diwwer2001/">
-          <em class="fa-brands fa-facebook"></em>
-        </a>
-        <a class="hover-scale" href="http://line.me/ti/p/~diwwer.ggg">
-          <em class="fa-brands fa-line"></em>
-        </a>
-        <a class="hover-scale" href="http://github.com/diwwergg">
-          <em class="fa-brands fa-github"></em>
+  <div class="container">
+    <section aria-details="home">
+      <div class="bigbutton">
+        <a href="index.html">
+          <h3>Home</h3>
         </a>
       </div>
+    </section>
+    <section aria-details="social">
+      <div class="block-content">
+        <h3>ช่องทางการติดต่อ</h3>
+        <div class="social-link">
+          <a class="hover-scale" href="https://www.facebook.com/diwwer2001/">
+            <em class="fa-brands fa-facebook"></em>
+          </a>
+          <a class="hover-scale" href="http://line.me/ti/p/~diwwer.ggg">
+            <em class="fa-brands fa-line"></em>
+          </a>
+          <a class="hover-scale" href="http://github.com/diwwergg">
+            <em class="fa-brands fa-github"></em>
+          </a>
+        </div>
+      </div>
       <hr>
-      <h3>ติดต่อฉัน</h3>
-      <form class="" action="mailto:tawatchaibuajun@gmail.com" method="post">
-        <label>Name:</label>
-        <input type="text" name="name_surname" value=""><br>
-        <label>E-mail:</label>
-        <input type="email" name="email" value=""><br>
-        <label>ข้อความที่ต้องการส่ง:</label><br>
-        <textarea name="message" rows="8" cols="80"></textarea><br>
-        <input class="button-submit" type="submit" name="">
-      </form>
-    </div>
+    </section>
+    <section aria-details="send email">
+      <div class="block-content">
+        <h3>ติดต่อฉัน</h3>
+        <form action="mailto:tawatchaibuajun@gmail.com" method="post" enctype="text/plain">
+          <div class="send_email">
+            <div class="col1 row1">
+              <div class="form-group-redius">
+                <label for="name">ชื่อ</label>
+                <input type="text" name="name" id="name" placeholder="ชื่อ">
+              </div>
+              <div class="form-group-redius">
+                <label for="email">อีเมล</label>
+                <input type="email" name="email" id="email" placeholder="อีเมล">
+              </div>
+            </div>
+            <div class="form-group-redius col2 row1">
+              <label for="message">ข้อความ</label>
+              <textarea name="message" id="message" cols="50" rows="10" placeholder="ข้อความ"></textarea>
+            </div>
+            <div class="cow-center row2">
+              <input type="submit" value="ส่ง">
+            </div>
+          </div>
+      </div>
+    </section>
   </div>
 </body>
 

@@ -4,65 +4,121 @@
 <head>
   <meta charset="UTF-8" />
   <title>This is Thawatchai Buachan</title>
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/container.css">
   <link rel="stylesheet" href="index.css" />
   <link rel="stylesheet" href="css/button.css">
   <link type="image/png" sizes="96x96" rel="icon" href="https://img.icons8.com/nolan/96/home.png">
   <base href="index.html" />
+  <script src="https://kit.fontawesome.com/237bd344eb.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="body-index">
-  <div class="app">
-    <div class="header-c1">
-      <div class="infome">
-        <img class="photome"
-          src="https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.6435-9/118604467_2692252774319912_4976363662842204685_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEWWWH6tPFYDduroB3mzLAVzL9B4DZxH_vMv0HgNnEf-1OEO63QezRZadsAGbwKy6QBD2507wlnEbtjBC7ApxLz&_nc_ohc=77A_EGOwJZMAX8A7YHZ&_nc_ht=scontent.fbkk5-3.fna&oh=00_AT8UAj7bJMEM4PuW9dH48uN0-99dD7R9N7fOpr8aCa0qBg&oe=63507A69"
-          alt="Thawatchai Buachan at PIM" width="250" height="250" />
-        <div class="description-me">
-          <h1>ธวัชชัย บัวจันทร์</h1>
-          <p><em>สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
-          <p>คณะวิศวกรรมกรรมศาสตร์และเทคโนโลยี</p>
-          <p>
-            <strong><a href="http://www.pim.ac.th">สถาบันการจัดการปัญญาภิวัฒน์</a></strong>
-          </p>
+  <div class="container">
+    <section aria-details="myself">
+      <div class="block-content">
+        <div class="infome">
+          <img class="photome"
+            src="https://scontent.fbkk5-3.fna.fbcdn.net/v/t1.6435-9/118604467_2692252774319912_4976363662842204685_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeEWWWH6tPFYDduroB3mzLAVzL9B4DZxH_vMv0HgNnEf-1OEO63QezRZadsAGbwKy6QBD2507wlnEbtjBC7ApxLz&_nc_ohc=77A_EGOwJZMAX8A7YHZ&_nc_ht=scontent.fbkk5-3.fna&oh=00_AT8UAj7bJMEM4PuW9dH48uN0-99dD7R9N7fOpr8aCa0qBg&oe=63507A69"
+            alt="Thawatchai Buachan at PIM" width="250" height="250" />
+          <div class="description-me">
+            <h1>ธวัชชัย บัวจันทร์</h1>
+            <p><em>สาขาวิศวกรรมคอมพิวเตอร์และปัญญาประดิษฐ์</em></p>
+            <p>คณะวิศวกรรมกรรมศาสตร์และเทคโนโลยี</p>
+            <p>
+              <strong><a href="http://www.pim.ac.th">สถาบันการจัดการปัญญาภิวัฒน์</a></strong>
+            </p>
+          </div>
+        </div>
+        <p>ผมชื่อ ธวัชชัย บัวจันทร์ มีชื่อเล่นว่าดิว</p>
+      </div>
+      <hr />
+    </section>
+    <section aria-details="experience">
+      <div class="block-content">
+        <h3>ประสบการณ์การทำงาน</h3>
+        <table id="work_experience" style="width: 60%;" aria-describedby="Table work">
+          <thead>
+            <tr class="work">
+              <th style="text-align: center;">Year</th>
+              <th style="text-align: center;">Work Place</th>
+            </tr>
+          </thead>
+          <tr class="work">
+            <td>2021-12 - 2022-05</td>
+            <td>Nernturbo NTBX</td>
+          </tr>
+          <tr class="work">
+            <td>2022-06 - 2022-08</td>
+            <td>7-11</td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+    </section>
+    <section aria-details="myskill">
+      <div class="block-content">
+        <h3>ทักษะความสามารถ Skill</h3>
+        <div class="myskill">
+          <div class="skill1">
+            <table aria-describedby="skill 1">
+              <thead>
+                <tr>
+                  <th>Skill</th>
+                  <th class="text-center">Level</th>
+                </tr>
+              </thead>
+              <tr>
+                <td><em class="fa-brands fa-css3-alt"> </em>CSS</td>
+                <td>Intermediate ★  ★  ★  ★  </td>
+              </tr>
+              <tr>
+                <td><em class="fa-brands fa-square-js"> </em>JavaScript</td>
+                <td>Intermediate ✭  ✭  ✭  ✭  </td>
+              </tr>
+              <tr>
+                <td><em class="fa-brands fa-html5"> </em>HTML</td>
+                <td>Intermediate ✫  ✫  ✫  ✫  </td>
+              </tr>
+            </table>
+          </div>
+          <div class="skil2">
+            <table aria-describedby="skill 2">
+              <thead>
+                <tr>
+                  <th>Skill</th>
+                  <th class="text-center">Level</th>
+                </tr>
+              </thead>
+              <tr>
+                <td><em class="fa-brands fa-react"> </em>React</td>
+                <td>Intermediate   ★  ★  ★  ★  </td>
+              </tr>
+              <tr>
+                <td>JavaSpringBoot</td>
+                <td>Intermediate   ✭  ✭  ✭  ✭  </td>
+              </tr>
+              <tr>
+                <td><em class="fa-brands fa-python"> </em>Python</td>
+                <td>Intermediate   ✫  ✫  ✫  ✫  </td>
+              </tr>
+            </table>
+          </div>
         </div>
       </div>
-      <p>ผมชื่อ ธวัชชัย บัวจันทร์ มีชื่อเล่นว่าดิว</p>
-    </div>
-    <hr />
-    <div class="header-c1">
-      <h3>ประสบการณ์การทำงาน</h3>
-      <table style="width: 60%;" aria-describedby="Table work">
-        <thead>
-          <tr class="work">
-            <th style="text-align: center;">Year</th>
-            <th style="text-align: center;">Work Place</th>
-          </tr>
-        </thead>
-        <tr class="work">
-          <td>2021-12 - 2022-05</td>
-          <td>Nernturbo NTBX</td>
-        </tr>
-        <tr class="work">
-          <td>2022-06 - 2022-08</td>
-          <td>7-11</td>
-        </tr>
-      </table>
-    </div>
-    <hr />
-    <div class="bigbutton">
-      <a href="contact.html">
-        <h3>ช่องทางการติดต่อ</h3>
-      </a>
-    </div>
-    <hr />
-    <div class="bigbutton">
-      <a href="weekReport-1.html">
-        <h3>Week Report-1</h3>
-      </a>
-    </div>
-    <h3>ทักษะความสามารถ Skill</h3>
-    ⭐⭐⭐⭐⭐⭐
+      <hr />
+    </section>
+    <section aria-details="link">
+      <div class="bigbutton">
+        <a href="contact.html">
+          <h3>ช่องทางการติดต่อ</h3>
+        </a>
+      </div>
+      <div class="bigbutton">
+        <a href="weekReport-1.html">
+          <h3>Week Report-1</h3>
+        </a>
+      </div>
+    </section>
   </div>
 </body>
 

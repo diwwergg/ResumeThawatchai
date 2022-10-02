@@ -5,6 +5,10 @@
   padding-left: 25px
   max-height: 690px;
   transition-decoration: 0.3s;
+  background-color: #aaa;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
   
 }
 .bigbutton:hover {
